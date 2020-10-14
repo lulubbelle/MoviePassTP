@@ -1,4 +1,5 @@
 <?php
+
 namespace Models;
 
 class Movie {
@@ -59,4 +60,5 @@ public function addGenre($genre) {
     array_push($this->genres, $genre);
 }
 }
+
 ?>
